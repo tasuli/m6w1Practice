@@ -6,7 +6,6 @@ public class Calculator {
     private BigDecimal mem;
 
     public Calculator() {
-        this.clearMemory();
     }
 
     public long sum(long a, long b) {
@@ -46,7 +45,7 @@ public class Calculator {
     }
 
     public void addToMemory(BigDecimal num) {
-        mem = mem.add(num);
+        mem.add(num);
     }
 
     public BigDecimal getMem() {
