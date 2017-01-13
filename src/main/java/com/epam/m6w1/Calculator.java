@@ -45,7 +45,7 @@ public class Calculator {
     }
 
     public void addToMemory(BigDecimal num) {
-        mem = mem.add(num);
+        mem = getMem().add(num);
     }
 
     public BigDecimal getMem() {
